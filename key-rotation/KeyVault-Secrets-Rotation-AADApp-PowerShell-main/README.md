@@ -34,11 +34,11 @@ Functions are using Function App identity to access Key Vault and existing secre
 
 ### Installation
 
-# Install function with template for AAD App client secret
-# Add permissions using Graph API to Azure Function to generate client secrets in AAD App
+Install function with template for AAD App client secret
+Add permissions using Graph API to Azure Function to generate client secrets in AAD App
 
 ## Running the Script
-run from the function folder >> az deployment group create --resource-group <resource group> --template-file azuredeploy.json --parameters deploymentParameters.json
+Run from the function folder >> az deployment group create --resource-group <resource group> --template-file azuredeploy.json --parameters deploymentParameters.json
 
 ## Once all the resources are created you have to provide the graphapi role assignment to the function app appid.
 
@@ -63,11 +63,11 @@ New-AzureADServiceAppRoleAssignment -ObjectId $functionIdentityObjectId -Princip
 
 ```
 
-# Please also run the above powershell script changing the graphAppId to = 00000002-0000-0000-c000-000000000000
-# Provide Azure AD role to the function object ID - KeyVault Secret Officer
+* Please also run the above powershell script changing the graphAppId to = 00000002-0000-0000-c000-000000000000
+* Provide Azure AD role to the function object ID - KeyVault Secret Officer
 
 
-* --TODO--
-# Use of Secret String in conjunction with the KV, however this could be avoided with implimenting the secrets with the parameter file and raising a http manual event trigaring the eventgid and functions to genarate a new version of the secrets in the KV. 
+# --TODO--
+* Use of Secret String in conjunction with the KV, however this could be avoided with implimenting the secrets with the parameter file and raising a http manual event trigaring the eventgid and functions to genarate a new version of the secrets in the KV. 
 
-# eeds to align with the dev team so that the secrets are used inconjunction with dynamic KV target string so that a new version of secret does not break the trust chain.
+*Needs to align with the dev team so that the secrets are used inconjunction with dynamic KV target string so that a new version of secret does not break the trust chain.
