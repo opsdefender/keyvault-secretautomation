@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "keyVaultRG": {
+        "value": "managedapp-rg"
+      },
+      "keyVaultName": {
+        "value": "managedappkv02"
+      },
+      "appServicePlanType": {
+        "value": "Consumption Plan"
+      },
+      "functionAppName": {
+        "value": "AADApp-clientsecret-rotation-fnapp"
+      },
+      "secretName": {
+        "value": "AADAppClientSecret"
+      },
+      "deploySecretWithClientSecretToKeyVault": {
+        "value": true
+      },
+      "aadAppObjectId": {
+        "value": "8d0bb4d5-6534-4503-94d9-7266a9efaf2b"
+      },
+      "clientSecretId": {
+        "value": "7e3dce8c-8eb9-4a2e-b944-8aba5d8b12b3"
+      },
+      "clientSecretValue": {
+        "value": "cxB8Q~r4l.~n04BMXDuSXldF6VyBelzBe.D0QadE"
+      },
+
+      "secretExpirationDateUnixTime": {
+        "value": 1685574000
+      },
+      "secretValidityPeriodDays": {
+        "value": 90
+      }
+    }
+  }
