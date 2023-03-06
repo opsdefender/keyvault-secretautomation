@@ -21,13 +21,13 @@
         "value": true
       },
       "aadAppObjectId": {
-        "value": "8d0bb4d5-6534-4503-94d9-7266a9efaf2b"
+        "value": "null"
       },
       "clientSecretId": {
-        "value": "7e3dce8c-8eb9-4a2e-b944-8aba5d8b12b3"
+        "value": "null"
       },
       "clientSecretValue": {
-        "value": "cxB8Q~r4l.~n04BMXDuSXldF6VyBelzBe.D0QadE"
+        "value": "null"
       },
 
       "secretExpirationDateUnixTime": {
