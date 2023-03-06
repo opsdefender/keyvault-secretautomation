@@ -44,7 +44,8 @@ Run from the function folder >> az deployment group create --resource-group <res
 
 Steps to add Graph API permissions to Azure Function:
 
-Steps to add Graph API permissions to Azure Function:
+* Add the function app identity object ID 
+* Run the script ( Copy and paste it on a powershell signed to Az sub)
 
 > [!IMPORTANT]
 > To provide Graph API Permission you need to be Global Administrator in Azure Active Directory
