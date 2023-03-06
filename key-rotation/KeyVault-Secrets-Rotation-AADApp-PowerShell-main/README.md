@@ -4,8 +4,6 @@ Functions regenerate individual key (alternating between two keys) in AAD App cl
 
 ## Features
 
-This project framework provides the following features:
-
 * Rotation function for AAD App client secret triggered by Event Grid (AKVAADAppClientSecretRotation)
 
 * Rotation function for AAD App client secret key triggered by HTTP call (AKVAADAppClientSecretRotationHttp)
