@@ -65,7 +65,7 @@ New-AzureADServiceAppRoleAssignment -ObjectId $functionIdentityObjectId -Princip
 * Provide Azure AD role to the function object ID - KeyVault Secret Officer
 
 
-* TODO
+* --TODO--
 - Use of Secret String in conjunction with the KV, however this could be avoided with implimenting the secrets with the parameter file and raising a http manual event trigaring the eventgid and functions to genarate a new version of the secrets in the KV. 
 
 - Needs to align with the dev team so that the secrets are used inconjunction with dynamic KV target string so that a new version of secret does not break the trust chain.
