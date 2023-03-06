@@ -13,7 +13,7 @@ Functions regenerate individual key (alternating between two keys) in AAD App cl
 * ARM template for adding AAD App client secret to existing function with secret deployment (optional)
 
 ## Steps
-Please update the deploy parameters file with the client secret you would like to manage and deploy the azuredeploy.json file referencing the deploymentPaarmeters.josn
+Please update the deploy parameters file with the client secret you would like to manage and deploy the azuredeploy.json file referencing the deploymentParmeters.josn
 
 ## Overview
 
@@ -70,4 +70,4 @@ New-AzureADServiceAppRoleAssignment -ObjectId $functionIdentityObjectId -Princip
 # --TODO--
 * Use of Secret String in conjunction with the KV, however this could be avoided with implimenting the secrets with the parameter file and raising a http manual event trigaring the eventgid and functions to genarate a new version of the secrets in the KV. 
 
-*Needs to align with the dev team so that the secrets are used inconjunction with dynamic KV target string so that a new version of secret does not break the trust chain.
+* Needs to align with the dev team so that the secrets are used inconjunction with dynamic KV target string so that a new version of secret does not break the trust chain.
