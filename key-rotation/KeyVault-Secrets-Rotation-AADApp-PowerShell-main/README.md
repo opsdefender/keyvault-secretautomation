@@ -14,6 +14,9 @@ This project framework provides the following features:
 
 * ARM template for adding AAD App client secret to existing function with secret deployment (optional)
 
+## Steps
+Please update the deploy parameters file with the client secret you would like to manage and deploy the azuredeploy.json file referencing the deploymentPaarmeters.josn
+
 ## Overview
 
 Functions using following information stored in secret as tags:
@@ -60,4 +63,6 @@ New-AzureADServiceAppRoleAssignment -ObjectId $functionIdentityObjectId -Princip
 
 ```
 
+* Please also run the above powershell script changing the graphAppId to = 00000002-0000-0000-c000-000000000000
+* Provide Azure AD role to the function object ID - KeyVault Secret Officer
 
