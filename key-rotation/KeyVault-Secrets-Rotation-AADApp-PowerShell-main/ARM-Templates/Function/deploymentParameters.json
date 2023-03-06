@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "keyVaultRG": {
-        "value": "managedapp-rg"
+        "value": "<resourcegroup-name>"
       },
       "keyVaultName": {
-        "value": "managedappkv02"
+        "value": "<KeyVault-name>"
       },
       "appServicePlanType": {
         "value": "Consumption Plan"
