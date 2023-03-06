@@ -13,7 +13,7 @@ Functions regenerate individual key (alternating between two keys) in AAD App cl
 * ARM template for adding AAD App client secret to existing function with secret deployment (optional)
 
 ## Steps
-Please update the deploy parameters file with the client secret you would like to manage and deploy the azuredeploy.json file referencing the deploymentParmeters.josn
+Please update the deploy parameters file with the client secret you would like to manage and deploy the azuredeploy.json file referencing the deploymentParmeters.json
 
 ## Overview
 
