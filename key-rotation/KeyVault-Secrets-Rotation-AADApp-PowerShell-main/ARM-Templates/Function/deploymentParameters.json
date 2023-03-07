@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "keyVaultRG": {
-        "value": "<resourcegroup-name>"
+        "value": "managedapp-rg"
       },
       "keyVaultName": {
-        "value": "<KeyVault-name>"
+        "value": "managedappkv5"
       },
       "appServicePlanType": {
         "value": "Consumption Plan"
@@ -21,13 +21,13 @@
         "value": true
       },
       "aadAppObjectId": {
-        "value": "null"
+        "value": "8d0bb4d5-6534-4503-94d9-7266a9efaf2b"
       },
       "clientSecretId": {
-        "value": "null"
+        "value": "15c2f468-5927-4873-a91b-7e4804c7707c"
       },
       "clientSecretValue": {
-        "value": "null"
+        "value": "taP8Q~9RuTUBBEiLW7c3RkQkSVZAehN7vQeW3bwT"
       },
 
       "secretExpirationDateUnixTime": {
